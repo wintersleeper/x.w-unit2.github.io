@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Setting the background as a GIF */
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('page5.gif');  /* Use 'page1.gif' as the background */
+            background-size: cover;              /* Make the background cover the whole screen */
+            background-position: center;         /* Center the background image */
+            background-repeat: no-repeat;        /* Prevent repeating the GIF */
+        }
+
+        /* Styling for the 'back to start' button */
+        .next-button {
+            position: fixed;           /* Fix the button's position on the screen */
+            bottom: 20px;              /* 20px from the bottom */
+            right: 20px;               /* 20px from the right */
+            padding: 10px 20px;        /* Padding inside the button */
+            background-color: rgba(25, 66, 189, 0.7); /* Semi-transparent black background */
+            color: white;              /* Text color */
+            font-size: 16px;           /* Font size */
+            border: none;              /* Remove border */
+            border-radius: 5px;        /* Rounded corners */
+            cursor: pointer;          /* Change cursor to pointer */
+            transition: background-color 0.3s; /* Smooth transition for background color */
+        }
+
+        .next-button:hover {
+            background-color: rgba(9, 30, 164, 0.9); /* Darker background on hover */
+        }
+    </style>
+</head>
+<body>
+  
+
+    <!-- The 'back to start' button -->
+    <button class="next-button" onclick="window.location.href='index.html'">back to start</button>
+
+</body>
+</html>

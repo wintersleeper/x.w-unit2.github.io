@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Setting the background as a GIF */
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('page4.gif');  /* Use 'page1.gif' as the background */
+            background-size: cover;              /* Make the background cover the whole screen */
+            background-position: center;         /* Center the background image */
+            background-repeat: no-repeat;        /* Prevent repeating the GIF */
+        }
+
+         /* Styling for the large title */
+         h1 {
+            position: absolute;                /* Absolute positioning to place it on top */
+            top: 80px;                         /* 20px from the top */
+            left: 50%;                         /* Center it horizontally */
+            transform: translateX(-50%);       /* Center the title exactly */
+            font-size: 120px;                   /* Large font size */
+            color: rgb(164, 177, 216);                      /* Ensure the text color is white */
+            margin: 0;                         /* Remove default margin */
+        }
+
+        /* Styling for the 'Next Page' button */
+        .next-button {
+            position: fixed;           /* Fix the button's position on the screen */
+            bottom: 20px;              /* 20px from the bottom */
+            right: 20px;               /* 20px from the right */
+            padding: 10px 20px;        /* Padding inside the button */
+            background-color: rgba(25, 66, 189, 0.7); /* Semi-transparent black background */
+            color: white;              /* Text color */
+            font-size: 16px;           /* Font size */
+            border: none;              /* Remove border */
+            border-radius: 5px;        /* Rounded corners */
+            cursor: pointer;          /* Change cursor to pointer */
+            transition: background-color 0.3s; /* Smooth transition for background color */
+        }
+
+        .next-button:hover {
+            background-color: rgba(9, 30, 164, 0.9); /* Darker background on hover */
+        }
+    </style>
+</head>
+<body>
+    <!-- Large Title at the top -->
+   <h1>|Emotion Regulation|</h1>
+
+    <!-- The 'Next Page' button -->
+    <button class="next-button" onclick="window.location.href='page5.html'">Next Page</button>
+
+</body>
+</html>
